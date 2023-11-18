@@ -20,7 +20,7 @@
 		</div>
 		<div class="sm:flex">
 			<div class="sm:flex-auto">
-				<img src="desktop.png" class="object-scale-down" />
+				<img src="desktop.png" class="object-scale-down mb-2" />
 			</div>
 			<div class="sm:flex-auto ml-2 mb-2">
 				<div class="rounded bg-surface1 p-2 mb-2">
@@ -118,11 +118,11 @@
 	</div>
 	<div class="bg-mauve rounded p-4 mb-2">
 		<div class="rounded bg-surface0 p-2 mb-2 text-center">
-			<h1 class="text-3xl text-text font-bold">Linux Rice</h1>
+			<h1 class="text-3xl text-text font-bold">Meal Prep</h1>
 		</div>
 		<div class="sm:flex">
 			<div class="sm:flex-auto">
-				<img src="magentacarrot.png" class="object-scale-down" />
+				<img src="magentacarrot.png" class="object-scale-down mb-2" />
 			</div>
 			<div class="sm:flex-auto ml-2 mb-2">
 				<div class="rounded bg-surface1 p-2 mb-2">
@@ -201,7 +201,7 @@
 				</div>
 			</div>
 			<div class="sm:flex-auto">
-				<img src="fuzzy.png" class="object-scale-down float-right" />
+				<img src="fuzzy.png" class="object-scale-down sm:float-right" />
 			</div>
 		</div>
 	</div>
@@ -210,7 +210,7 @@
 			<h1 class="text-3xl text-text font-bold">TODO App</h1>
 		</div>
 		<div class="sm:flex">
-			<div class="sm:flex-auto">
+			<div class="sm:flex-auto mb-2">
 				<img src="todo.png" class="object-scale-down sm:float-left" />
 			</div>
 			<div class="sm:flex-none ml-2 mb-2 sm:w-1/3">
