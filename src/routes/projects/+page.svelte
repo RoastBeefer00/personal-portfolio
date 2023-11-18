@@ -1,8 +1,8 @@
 <script>
 </script>
 
-<div class="w-3/4 sm:w-1/2 bg-blue justify-center mx-auto m-4 rounded p-4">
-	<h1 class="text-crust text-4xl sm:text-6xl text-center">
+<div class="w-3/4 lg:w-1/2 bg-blue justify-center mx-auto m-4 rounded p-4">
+	<h1 class="text-crust text-4xl lg:text-6xl text-center">
 		<b>Projects</b>
 	</h1>
 	<p class="text-crust text-center m-2">
@@ -18,11 +18,11 @@
 		<div class="rounded bg-surface0 p-2 mb-2 text-center">
 			<h1 class="text-3xl text-text font-bold">Linux Rice</h1>
 		</div>
-		<div class="sm:flex">
-			<div class="sm:flex-auto">
+		<div class="lg:flex">
+			<div class="lg:flex-auto">
 				<img src="desktop.png" class="object-scale-down mb-2" />
 			</div>
-			<div class="sm:flex-auto ml-2 mb-2">
+			<div class="lg:flex-auto lg:ml-2 mb-2">
 				<div class="rounded bg-surface1 p-2 mb-2">
 					<h2 class="text-xl font-bold text-text">EndeavorOS</h2>
 					<p class="text-crust bg-text p-2 rounded">
@@ -83,8 +83,8 @@
 		<div class="rounded bg-surface0 p-2 mb-2 text-center">
 			<h1 class="text-3xl text-text font-bold">Cruces Chess Club</h1>
 		</div>
-		<div class="sm:flex">
-			<div class="sm:flex-none mr-2 mb-2 sm:w-1/3">
+		<div class="lg:flex">
+			<div class="lg:flex-none lg:mr-2 mb-2 lg:w-1/3">
 				<div class="rounded bg-surface1 p-2 mb-2">
 					<h2 class="text-xl text-text font-bold">CCC</h2>
 					<p class="text-crust bg-yellow p-2 rounded">
@@ -111,7 +111,7 @@
 					</p>
 				</div>
 			</div>
-			<div class="sm:flex-auto">
+			<div class="lg:flex-auto">
 				<img src="ccc.png" class="object-scale-down" />
 			</div>
 		</div>
@@ -120,11 +120,11 @@
 		<div class="rounded bg-surface0 p-2 mb-2 text-center">
 			<h1 class="text-3xl text-text font-bold">Meal Prep</h1>
 		</div>
-		<div class="sm:flex">
-			<div class="sm:flex-auto">
+		<div class="lg:flex">
+			<div class="lg:flex-auto">
 				<img src="magentacarrot.png" class="object-scale-down mb-2" />
 			</div>
-			<div class="sm:flex-auto ml-2 mb-2">
+			<div class="lg:flex-auto lg:ml-2 mb-2">
 				<div class="rounded bg-surface1 p-2 mb-2">
 					<h2 class="text-xl font-bold text-text">Magenta Carrot</h2>
 					<p class="text-crust bg-lavender p-2 rounded">
@@ -177,8 +177,8 @@
 		<div class="rounded bg-surface0 p-2 mb-2 text-center">
 			<h1 class="text-3xl text-text font-bold">Fuzzy Recipes</h1>
 		</div>
-		<div class="sm:flex">
-			<div class="sm:flex-auto mr-2 mb-2">
+		<div class="lg:flex">
+			<div class="lg:flex-auto lg:mr-2 mb-2">
 				<div class="rounded bg-surface1 p-2 mb-2">
 					<h2 class="text-xl font-bold text-text">Skim</h2>
 					<p class="text-crust bg-flamingo p-2 rounded">
@@ -200,8 +200,8 @@
 					</p>
 				</div>
 			</div>
-			<div class="sm:flex-auto">
-				<img src="fuzzy.png" class="object-scale-down sm:float-right" />
+			<div class="lg:flex-auto">
+				<img src="fuzzy.png" class="object-scale-down lg:float-right" />
 			</div>
 		</div>
 	</div>
@@ -209,11 +209,11 @@
 		<div class="rounded bg-surface0 p-2 mb-2 text-center">
 			<h1 class="text-3xl text-text font-bold">TODO App</h1>
 		</div>
-		<div class="sm:flex">
-			<div class="sm:flex-auto mb-2">
-				<img src="todo.png" class="object-scale-down sm:float-left" />
+		<div class="lg:flex">
+			<div class="lg:flex-auto mb-2">
+				<img src="todo.png" class="object-scale-down lg:float-left" />
 			</div>
-			<div class="sm:flex-none ml-2 mb-2 sm:w-1/3">
+			<div class="lg:flex-none lg:ml-2 mb-2 lg:w-1/3">
 				<div class="rounded bg-surface1 p-2 mb-2">
 					<h2 class="text-xl text-text font-bold">Learning</h2>
 					<p class="text-crust bg-teal p-2 rounded">

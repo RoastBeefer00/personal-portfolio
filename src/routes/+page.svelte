@@ -3,11 +3,11 @@
 </script>
 
 <div
-    class="bg-blue rounded justify-center text-center flex mx-auto m-6 p-6 sm:w-1/2"
+    class="bg-blue rounded justify-center text-center flex mx-auto m-6 p-6 w-3/4 lg:w-1/2 xl:w-1/4"
 >
     <div class="flex-auto">
-        <h1 class="text-2xl sm:text-4xl text-crust">Hi, I'm</h1>
-        <h1 class="text-4xl sm:text-6xl text-crust flex-none">
+        <h1 class="text-2xl lg:text-4xl text-crust">Hi, I'm</h1>
+        <h1 class="text-4xl lg:text-6xl text-crust flex-none">
             <b>Jake Jasmin</b>
         </h1>
         <p class="text-crust mt-5">"I'm in all the movies!"</p>
@@ -18,13 +18,15 @@
     />
 </div>
 
-<div class="rounded bg-surface0 sm:p-4 mx-auto justify-center sm:w-5/6">
+<div
+    class="rounded bg-surface0 lg:p-4 mx-auto justify-center lg:w-5/6 xl:w-1/2"
+>
     <div
         class="justify-center text-center bg-overlay0 rounded w-1/3 mx-auto mb-2"
     >
         <h1 class="text-text font-bold underline p-2">My tech stack</h1>
     </div>
-    <div class="justify-center mx-auto grid grid-cols-1 sm:grid-cols-3">
+    <div class="justify-center mx-auto grid grid-cols-1 lg:grid-cols-3">
         <StackCard
             title="Rust"
             link="https://www.rust-lang.org/"
