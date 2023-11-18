@@ -3,20 +3,21 @@
     import { fade } from "svelte/transition";
 
     export let data;
-    let selected = 0;
 
     let class_unselected =
-        "text-text p-2 font-bold hover:bg-sapphire hover:text-crust hover:rounded-t";
+        "text-text p-2 font-bold hover:bg-blue hover:text-crust hover:rounded-t";
     let class_selected =
-        "bg-blue rounded-t text-crust p-2 font-bold hover:bg-sapphire hover:rounded-t";
+        "bg-blue rounded-t text-crust p-2 font-bold hover:bg-blue hover:rounded-t";
 </script>
 
 <div class="flex border-b-2 border-blue top-0 left-0 sticky bg-base">
-    <ul class={selected == 0 ? class_selected : class_unselected}>
-        <a href="/" on:click={() => (selected = 0)}>Home</a>
+    <ul class={data.pathname == "/" ? class_selected : class_unselected}>
+        <a href="/">Home</a>
     </ul>
-    <ul class={selected == 1 ? class_selected : class_unselected}>
-        <a href="/projects" on:click={() => (selected = 1)}>Projects</a>
+    <ul
+        class={data.pathname == "/projects" ? class_selected : class_unselected}
+    >
+        <a href="/projects">Projects</a>
     </ul>
 </div>
 {#key data.pathname}
