@@ -84,7 +84,7 @@
             <br />
             <p>
                 I've combined Svelte with a Python FastAPI as well as a Rust
-                backedn compiled to WebAssembly.
+                backend compiled to WebAssembly.
             </p>
         </StackCard>
         <StackCard
