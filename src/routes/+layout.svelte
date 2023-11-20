@@ -14,6 +14,9 @@
     <ul class={data.pathname == "/" ? class_selected : class_unselected}>
         <a href="/">Home</a>
     </ul>
+    <ul class={data.pathname == "/about" ? class_selected : class_unselected}>
+        <a href="/about">About</a>
+    </ul>
     <ul
         class={data.pathname == "/projects" ? class_selected : class_unselected}
     >

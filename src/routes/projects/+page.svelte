@@ -24,6 +24,16 @@
 			</div>
 			<div class="lg:flex-auto lg:ml-2 mb-2">
 				<div class="rounded bg-surface1 p-2 mb-2">
+					<h2 class="text-xl font-bold text-text font-bold underline">
+						NOTE:
+					</h2>
+					<p class="text-crust bg-text p-2 rounded">
+						I have not contributed to EndeavorOS, Hyprland, Tmux, or
+						Helix. I simply use them in my workflow and have
+						customized them to my liking.
+					</p>
+				</div>
+				<div class="rounded bg-surface1 p-2 mb-2">
 					<h2 class="text-xl font-bold text-text">EndeavorOS</h2>
 					<p class="text-crust bg-text p-2 rounded">
 						<a href="https://endeavouros.com/" class="underline"
