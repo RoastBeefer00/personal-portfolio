@@ -23,9 +23,9 @@
         class="rounded bg-surface0 lg:p-4 mx-auto justify-center lg:w-5/6 xl:w-1/2 pt-2"
     >
         <div
-            class="justify-center text-center bg-overlay0 rounded w-2/3 lg:w-1/3 mx-auto mb-2"
+            class="justify-center text-center bg-lavender rounded w-2/3 lg:w-1/3 mx-auto mb-2"
         >
-            <h1 class="text-text font-bold underline p-2">My tech stack</h1>
+            <h1 class="text-crust text-2xl font-bold p-2">My tech stack</h1>
         </div>
         <div class="justify-center mx-auto grid grid-cols-1 lg:grid-cols-3">
             <StackCard
