@@ -262,4 +262,22 @@
 			</div>
 		</div>
 	</div>
+	<div class="bg-crust rounded p-4 mb-2">
+		<div class="rounded bg-surface0 p-2 mb-2 text-center">
+			<h1 class="text-3xl text-green font-bold">RMatrix</h1>
+		</div>
+		<div class="lg:flex">
+			<div class="lg:flex-auto lg:mr-2 mb-2">
+				<div class="rounded bg-surface1 p-2 mb-2">
+					<h2 class="text-xl font-bold text-text">Rust</h2>
+					<p class="text-crust bg-green p-2 rounded">
+                       This project is a personal attempt to recreate the <a href="https://github.com/abishekvashok/cmatrix" class="underline">cmatrix</a> project, but in Rust using the <a href="https://github.com/ratatui-org/ratatui" class="underline">ratatui crate</a>.
+                    </p>
+				</div>
+			</div>
+			<div class="lg:flex-auto">
+				<img src="fuzzy.png" class="object-scale-down lg:float-right" />
+			</div>
+		</div>
+	</div>
 </div>
