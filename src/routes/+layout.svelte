@@ -22,6 +22,11 @@
     >
         <a href="/projects">Projects</a>
     </ul>
+    <ul
+        class={data.pathname == "/snake" ? class_selected : class_unselected}
+    >
+        <a href="/snake">Snake</a>
+    </ul>
 </div>
 {#key data.pathname}
     <div in:fade={{ duration: 300, delay: 400 }} out:fade={{ duration: 300 }}>
