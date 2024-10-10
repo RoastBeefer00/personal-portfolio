@@ -38,7 +38,22 @@
                     Currently addicted to Rust. I <i>love</i> creating CLIs, TUIs,
                     and websites with Rust! At work I've created multiple CLIs in
                     Rust to help automate tasks and make key information more easily
-                    accessible.
+                    accessible. Most recently I created the game "snake" using the Rust game 
+                    engine <a href="https://bevyengine.org/" class="underline">Bevy</a>!
+                </p>
+            </StackCard>
+            <StackCard
+                title="Go"
+                link="https://go.dev/"
+                bg_color="bg-mauve"
+                img_url="go.png"
+            >
+                <p>
+                    Go is an awesome language and I'm very glad I learned it. I use Go at
+                    work as my scripting language of choice.  It has great GCP integration and 
+                    the type system can be quite powerful.  Go can be the right tool for the 
+                    job when you need fearless concurrency or maybe when you want to write something
+                    a little faster than Rust.
                 </p>
             </StackCard>
             <StackCard
@@ -59,17 +74,16 @@
                 </p>
             </StackCard>
             <StackCard
-                title="Helix"
-                link="https://helix-editor.com/"
-                bg_color="bg-mauve"
-                img_url="helix.png"
+                title="Neovim"
+                link="https://neovim.io/"
+                bg_color="bg-green"
+                img_url="neovim.png"
             >
                 <p>
-                    Helix is my current text editor of choice. It is similar to
-                    Vim/Neovim in the sense that it is a modal editor that
-                    utilizes vim motions. Helix takes a slightly different
-                    approach with its command patterns, allows for multi-cursor,
-                    and - most importantly - is written in Rust!
+                    Neovim is my text editor of choice. It is a modal editor that
+                    utilizes vim motions, is configured using lua, and has amazing plugins.
+                    Neovim gives me complete control over my development environment and allows me 
+                    to set up everything exactly how I want it.
                 </p>
                 <p>
                     If you leave the terminal or touch your mouse you've already
@@ -107,21 +121,6 @@
                 <p>
                     I have experience using both Terraform Enterprise (TFE) and
                     Terraform Open Source (TFO).
-                </p>
-            </StackCard>
-            <StackCard
-                title="Python"
-                link="https://www.python.org/"
-                bg_color="bg-green"
-                img_url="python.png"
-            >
-                <p>
-                    Python helped kickstart my coding journey and was one of the
-                    first langauges I learned.
-                </p>
-                <p>
-                    Currently I use Python within Azure Pipelines and Jupyter
-                    Notebooks.
                 </p>
             </StackCard>
         </div>
